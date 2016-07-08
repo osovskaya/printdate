@@ -9,7 +9,7 @@ class PrintTime
 
     public function printCurrentTimeSeconds()
 	{
-		echo date('g:i a s \s\e\c'); // 9:56 pm 22 sec
+		echo date('g:i a s \s\e\c e'); // 10:02 pm 00 sec Europe/Helsinki
 	}
 }
 
