@@ -4,7 +4,7 @@ class PrintTime
 {
 	public function printCurrentTime()
 	{
-		echo date('H:i:s'); // 21:40:41
+		echo date('g:i a'); // 9:47 pm
 	}
 }
 
