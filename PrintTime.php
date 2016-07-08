@@ -6,7 +6,11 @@ class PrintTime
 	{
 		echo date('g:i a'); // 9:47 pm
 	}
+
+    // new feature 1
+    public function printCurrentTimeSeconds()
+	{
+		echo date('g:i a s \s\e\c e'); // 10:02 pm 00 sec Europe/Helsinki
+	}
 }
-$date = new PrintTime;
-$date->printCurrentTime();
 
